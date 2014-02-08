@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+ruby '2.0.0'
+gem 'sinatra'
+gem 'curb'
+gem 'hiredis'
+gem 'redis'
+gem 'thin'
+gem 'erubis'
+gem 'multi_json'
+group :development do
+    gem 'racksh'
+    gem 'pry'
+    gem 'pry-rescue'
+    gem 'shotgun'
+end
