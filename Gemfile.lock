@@ -6,8 +6,13 @@ GEM
     daemons (1.1.9)
     erubis (2.7.0)
     eventmachine (1.0.3)
+    git (1.2.6)
+    git_time_extractor (0.2.1)
+      git
+      logger
     hiredis (0.4.5)
     interception (0.4)
+    logger (1.2.8)
     method_source (0.8.2)
     multi_json (1.8.4)
     pry (0.9.12.6)
@@ -45,6 +50,7 @@ PLATFORMS
 DEPENDENCIES
   curb
   erubis
+  git_time_extractor
   hiredis
   multi_json
   pry

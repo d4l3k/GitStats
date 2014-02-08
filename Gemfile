@@ -7,6 +7,7 @@ gem 'redis'
 gem 'thin'
 gem 'erubis'
 gem 'multi_json'
+gem 'git_time_extractor'
 group :development do
     gem 'racksh'
     gem 'pry'
